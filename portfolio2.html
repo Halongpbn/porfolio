@@ -1,7 +1,176 @@
 <!DOCTYPE html>
-  <head>
-    <title>Alyssa Nguyen</title>
-  </head>
-  <body>
-  <p>Hello World!</p>
+<html>
+   <style>
+	body{
+    margin:0px;
+    background:#D77874;
+    font-family:Simplifica,courier;
+	}
+	.header {
+	font-size:20px;
+    height:50px;
+    background:#F0F0F0;
+    border:1px solid #CCC;
+    width:960px;
+    margin:0px auto;
+    width:100%;
+    position:fixed;
+    top:0px;
+    text-align:center;
+	}
+    .intro_block{
+    margin:70px 50px 50px 50px;
+    font-family:Simplifica,courier;
+    padding:30px;
+    text-align:left;
+    background-color:#EEDFE4;
+    }
+    * {box-sizing:border-box}
+
+/* Slideshow container */
+.photo_scroll {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+.mySlides {
+    display: none;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor:pointer;
+  height: 13px;
+  width: 13px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+</style>
+ <head>
+   <title>Alyssa Nguyen</title>
+</head>
+<body>
+<script>
+    alert("Welcome to my page!");
+</script>
+    <div class="header">
+      <p>Alyssa Nguyen</p>
+</div>
+<div class="intro_block">
+	<p > My name is Alyssa Nguyen. I currently go to Carlmont High School, and I will be graduating in 2019. I play varsity tennis for school, and I play the viola and participate in music club and mentor elementary schoolers in a music mentorship program. I'm very active in environmental activites, and I am currently the Secretary of my school's Environmental club.</p>
+  <p>likes</p>
+  <ul>
+    <li>coding</li>
+    <li>tennis</li>
+    <li>viola</li>
+    <li>games</li>
+</ul>
+<p>Fun fact about me: I personally believe these to be the cutest living organisms on this planet: Jellyfish, snails, spiders, slugs, sea pigs, frogs.</p>
+</div>
+
+<div class="photo_scroll">
+<div class="mySlides fade">
+    <div class="numbertext">1 / 3</div>
+    <img src="pattern.png" style="width:100%">
+    <div class="text">A pattern generator I created on Scratch.</div>
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">2 / 3</div>
+    <img src="Screen Shot 2017-07-06 at 12.11.54 PM.png" style="width:100%">
+    <div class="text">A paddle game I' developed on Scratch.</div>
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">3 / 3</div>
+    <img src="bento.png" style="width:100%">
+    <div class="text">An Obamicon filtered photo made using a python program I've used.</div>
+  </div>
+
+  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+  <a class="next" onclick="plusSlides(1)">&#10095;</a>
+</div>
+<br>
+
+<div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span> 
+  <span class="dot" onclick="currentSlide(2)"></span> 
+  <span class="dot" onclick="currentSlide(3)"></span> 
+</div>
+</div>
+
+
+</div>
 </html>
