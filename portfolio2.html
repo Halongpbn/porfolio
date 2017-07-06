@@ -17,8 +17,18 @@
     position:fixed;
     top:0px;
     text-align:center;
-    z-index:88888;
-	}
+    z-index:3;
+    }
+    .toc{
+    position: fixed;
+    right: 0;
+    text-align: right;
+    z-index: 6;
+    display: block;
+    text-decoration:none;
+    padding:20px;
+    margin-top:-75px;
+}
     .intro_block{
     margin:70px 50px 50px 50px;
     font-family:Simplifica,courier;
@@ -107,11 +117,11 @@
    <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 <body>
-<script>
-    alert("Welcome to my page!");
-</script>
     <div class="header">
       <p>Alyssa Nguyen</p>
+</div>
+<div class="toc">
+<span>☰</span>
 </div>
 <div class="intro_block">
 	<p > My name is Alyssa Nguyen. I currently go to Carlmont High School, and I will be graduating in 2019. I play varsity tennis for school, and I play the viola and participate in music club and mentor elementary schoolers in a music mentorship program. I'm very active in environmental activites, and I am currently the Secretary of my school's Environmental club.</p>
@@ -135,7 +145,7 @@
 
 <div class="mySlides fade">
   <div class="numbertext">2 / 3</div>
-  <img src="Screen Shot 2017-07-06 at 12.11.54 PM.png" style="width:100%">
+  <a href=""<img src="Screen Shot 2017-07-06 at 12.11.54 PM.png" style="width:100%">
   <div class="text">Paddle Paint game created with Scratch.</div>
 </div>
 
@@ -175,4 +185,5 @@ function showSlides() {
     setTimeout(showSlides, 5000); // Change image every 5 seconds
 }
 </script>
+
 </html>
