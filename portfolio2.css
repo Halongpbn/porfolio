@@ -33,12 +33,9 @@
     text-align:left;
     background-color:#EEDFE4;
     }
-    .side_blocks:hover .right_block {
-  	opacity: 0.3;
-	}
-
-	  .side_blocks:hover .info {
-  	opacity: 1;
+    .side_blocks {
+	margin-bottom:2%;
+  
     }
     .left_block{
     display:inline-block;
