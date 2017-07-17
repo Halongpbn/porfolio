@@ -4,8 +4,8 @@
     font-family:Simplifica,courier;
 	}
 	.header {
-	font-size:20px;
-    height:50px;
+	font-size:30px;
+    height:80px;
     background:#F0F0F0;
     border:1px solid #CCC;
     width:960px;
@@ -23,7 +23,7 @@
     z-index: 6;
     display: block;
     text-decoration:none;
-    padding:20px;
+    padding:30px;
     margin-top:-15%;
 	}
     .intro_block{
