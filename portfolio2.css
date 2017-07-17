@@ -27,24 +27,23 @@
     margin-top:-15%;
 	}
     .intro_block{
-    margin:15% 7% 4% 7%;
+    margin:9% 7% 4% 7%;
     font-family:Simplifica,courier;
     padding:10%;
     text-align:left;
     background-color:#EEDFE4;
     }
     .side_blocks {
-	bottom-margin:2%;
-  
     }
     .left_block{
     display:inline-block;
-    margin: 0% 7% 0% 7%;
+    margin: 0% 7% 2% 7%;
     padding:18%;
     background-color:#EEDFE4;
     }
      .right_block{
     display:inline-block;
+    bottome-margin:2%;	
     padding:18%;
     background-color:#EEDFE4;
     }
