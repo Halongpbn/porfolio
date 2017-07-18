@@ -26,8 +26,12 @@
     padding:30px;
     margin-top:-15%;
 	}
+    .intro_color{
+    background-color:#e5ffe5;
+    height:20%;
+    }
     .intro_block{
-    margin:6% 7% 4% 7%;
+    margin:0% 7% 4% 7%;
     font-family:Simplifica,courier;
     padding:8%;
     text-align:left;
