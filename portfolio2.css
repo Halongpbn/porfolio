@@ -16,7 +16,7 @@
     text-align:center;
     z-index:3;
     }
-    .toc{
+    .dropbtn{
     position: fixed;
     right: 0;
     text-align: right;
@@ -24,7 +24,7 @@
     display: block;
     text-decoration:none;
     padding:30px;
-    margin-top:-15%;
+    margin-top:%;
 	}
     .intro_color{
     background-color:#e5ffe5;
