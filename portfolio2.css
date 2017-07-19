@@ -51,11 +51,17 @@
     .intro_block{
 		margin:8% 9% 4% 9%;
 		font-family:'Poiret One',Simplifica,courier;
-	    	font-size:15px;
+	    font-size:15px;
 		padding:7%;
 		text-align:left;
 		background-color:#D7F4EF;
     }
+	.projects{
+		font-size:50px;
+		text-align:center;
+		ont-family:'Poiret One',Simplifica,courier;
+		margin:3% 0% 3% 0%;
+	}
     .side_blocks {
     }
     .left_block{
