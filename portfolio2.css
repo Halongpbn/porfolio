@@ -26,14 +26,14 @@
 		z-index: 6;
 		display: block;
 		text-decoration:none;
-		padding:30px;
-		padding: 16px;
     		font-size: 16px;
     		border: none;
     		cursor: pointer;
+		background:#F0F0F0;
 	}
 	.dropdown-content {
 		display: none;
+		z-index: 6;
 		position: absolute;
 		background-color: #f9f9f9;
 		min-width: 160px;
@@ -58,12 +58,12 @@
 		display:inline-block;
 		margin: 0% 7% 2% 7%;
 		padding:18%;
-		background-color:#EEDFE4;
+		background-color:#BED8D4;
     }
      .right_block{
 		display:inline-block;
 		bottome-margin:2%;	
 		padding:18%;
-		background-color:#EEDFE4;
+		background-color:#BED8D4;
     }
 
