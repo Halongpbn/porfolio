@@ -5,7 +5,7 @@
 		font-family:'Poiret One',Simplifica,courier;
 	}
 	.header {
-		font-size:7%;
+		font-size:20%;
 		height:100px;
 		background:#F0F0F0;
 		width:960px;
@@ -29,7 +29,7 @@
 		text-decoration:none;
 		margin-top:-10px;
 		padding:20px;
-    		font-size: 3%;
+    		font-size: 15%;
     		border: none;
     		cursor: pointer;
 		background:#F0F0F0;
@@ -51,7 +51,7 @@
     .intro_block{
 		margin:8% 9% 4% 9%;
 		font-family:'Poiret One',Simplifica,courier;
-	    	font-size:5%;
+	    	font-size:16%;
 		padding:7%;
 		text-align:left;
 		background-color:#D7F4EF;
@@ -65,14 +65,14 @@
     .side_blocks {
     }
     .left_block{
-		font-size:6%;
+		font-size:20%;
 		display:inline-block;
 		margin: 0% 10% 2% 4%;
 		padding:15%;
 		background-color:#BED8D4;
     }
      .right_block{
-		font-size:6%;
+		font-size:20%;
 		display:inline-block;
 		bottome-margin:2%;	
 		padding:15%;
