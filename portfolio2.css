@@ -5,7 +5,7 @@
 		font-family:'Poiret One',Simplifica,courier;
 	}
 	.header {
-		font-size:20%;
+		font-size:70%;
 		height:100px;
 		background:#F0F0F0;
 		width:960px;
@@ -29,7 +29,7 @@
 		text-decoration:none;
 		margin-top:-10px;
 		padding:20px;
-    		font-size: 15%;
+    		font-size: 45%;
     		border: none;
     		cursor: pointer;
 		background:#F0F0F0;
@@ -51,13 +51,13 @@
     .intro_block{
 		margin:8% 9% 4% 9%;
 		font-family:'Poiret One',Simplifica,courier;
-	    	font-size:16%;
+	    	font-size:50%;
 		padding:7%;
 		text-align:left;
 		background-color:#D7F4EF;
     }
 	.projects{
-		font-size:10%;
+		font-size:80%;
 		text-align:center;
 		ont-family:'Poiret One',Simplifica,courier;
 		margin:3% 0% 3% 0%;
@@ -65,14 +65,14 @@
     .side_blocks {
     }
     .left_block{
-		font-size:20%;
+		font-size:60%;
 		display:inline-block;
 		margin: 0% 10% 2% 4%;
 		padding:15%;
 		background-color:#BED8D4;
     }
      .right_block{
-		font-size:20%;
+		font-size:60%;
 		display:inline-block;
 		bottome-margin:2%;	
 		padding:15%;
