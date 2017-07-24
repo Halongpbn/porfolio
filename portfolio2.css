@@ -6,7 +6,7 @@
 		font-size: 62.5%;
 	}
 	.header {
-		font-size:4em;
+		font-size:3.5em;
 		height:100px;
 		background:#F0F0F0;
 		width:960px;
@@ -66,14 +66,14 @@
     .side_blocks {
     }
     .left_block{
-		font-size:2em;
+		font-size:1.3em;
 		display:inline-block;
 		margin: 0% 10% 2% 4%;
 		padding:15%;
 		background-color:#BED8D4;
     }
      .right_block{
-		font-size:2em;
+		font-size:1.3em;
 		display:inline-block;
 		bottome-margin:2%;	
 		padding:15%;
