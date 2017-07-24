@@ -70,6 +70,7 @@
 		display:inline-block;
 		margin: 0% 10% 2% 4%;
 		width:40%;
+	    	height:40%;
 		background-color:#BED8D4;
     }
      .right_block{
@@ -77,6 +78,7 @@
 		display:inline-block;
 		bottom-margin:2%;	
 		width:40%;
+	     	height:40%;
 		background-color:#BED8D4;
     }
 
