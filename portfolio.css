@@ -1,0 +1,157 @@
+
+body{
+	margin:0;
+	padding:0;
+	background:#F2EFE9;
+	font-family: 'Ubuntu',courier;
+	font-size: 62.5%;
+}
+a{
+	text-decoration: none;
+	color:black;
+}
+.header {
+	font-size:2.5em;
+	min-height: 80px;
+	max-height: 100px;
+	background:#F0F0F0;
+	margin:0px auto;
+	width:100%;
+	position:fixed;
+	top:0px;
+	text-align:center;
+	z-index:3;
+}
+.intro_color{
+	background-color:#4ECDC4;
+	padding:1%;
+	margin-top: 80px;
+}
+.intro_block{
+	margin:10% 9% 9% 9%;
+	font-family:'Raleway',courier;
+	font-size:2em;
+	padding:7%;
+	text-align:center;
+	border-radius: 25px;
+	background-color:#F7FFF7;
+}
+.communications
+{
+	text-align: center;
+}
+.communications img
+{
+	display:inline-block;
+	width:4%;
+	height:4%;
+	margin-left: 2%;
+	margin-right: 2%;
+}
+.resume_header
+{
+	font-size:3.5em;
+	text-align:center;
+	font-family:'Ubuntu',courier;
+	margin:3% 0% 3% 0%;
+}
+.timeline
+{
+	width:80%;
+	height:auto;
+	margin: 50px auto 0;
+	padding: 20px;
+	box-sizing: border-box;
+}
+.timeline li
+{
+	position: relative;
+	list-style: none;
+	font-size:2em;
+}
+.timeline li .point
+{
+	position:relative;
+	min-height: 50px;
+	padding: 0 5% 15% 20%;
+	margin-left: 20px;
+	border-left: 2px solid;
+}
+.timeline li:last-child .point
+{
+	border-left: 1px solid transparent;
+}
+.timeline li .point span{
+	position: absolute;
+	color:#F7FFF7;
+	top:-8px;
+	left:-5vw;
+	min-height: 40px;
+	min-width: 40px;
+	width:10vw;
+	height:10vw;
+	font-size:65%;
+	line-height: 10vw;
+	text-align: center;
+	background: #1A535C;
+	font-weight:700;
+	border-radius: 50%;
+}
+.projects{
+	font-size:3.5em;
+	text-align:center;
+	font-family:'Ubuntu',courier;
+	margin:3% 0% 3% 0%;
+}
+.side
+{
+	margin-bottom: 2%;
+}
+.left_block{
+	font-family:'Raleway',courier;
+	font-size: 2.5vw;
+	display:inline-block;
+	width:40vw;
+	color:#F7FFF7;
+	height:40vw;
+	background-color:#FF6B6B;
+}
+.left_block p
+{
+	margin: 5% 5% 5% 5%;
+	color:#F7FFF7;
+}
+.left_block h2
+{
+	color:#F7FFF7;
+	font-size: 3.5vw;
+}
+.left_block img{
+	margin-top: 15%;
+	width: auto;
+	height:20%;
+}
+.right_block{
+	font-family:'Raleway',courier;
+	font-size: 2.5vw;
+	display:inline-block;
+	text-decoration: none;
+	color:#F7FFF7;
+	width:40vw;
+	height:40vw;
+	background-color:#FF6B6B;
+}
+.right_block h2
+{
+	color:#F7FFF7;
+	font-size: 3.5vw;
+}
+.right_block p{
+	margin: 5% 5% 5% 5%;
+	color:#F7FFF7;
+}
+.right_block img{
+	margin-top: 15%;
+	width: auto;
+	height:20%;
+}
