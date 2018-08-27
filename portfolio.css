@@ -90,7 +90,7 @@ a{
 	min-width: 40px;
 	width:10vw;
 	height:10vw;
-	font-size:65%;
+	font-size:2vw;
 	line-height: 10vw;
 	text-align: center;
 	background: #1A535C;
@@ -114,7 +114,7 @@ a{
 	width:40vw;
 	color:#F7FFF7;
 	height:40vw;
-	background-color:#FF6B6B;
+	background-color:#84BC9C;
 }
 .left_block p
 {
@@ -139,7 +139,7 @@ a{
 	color:#F7FFF7;
 	width:40vw;
 	height:40vw;
-	background-color:#FF6B6B;
+	background-color:#84BC9C;
 }
 .right_block h2
 {
